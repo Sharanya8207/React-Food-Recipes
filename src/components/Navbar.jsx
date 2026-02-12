@@ -12,7 +12,7 @@ const Navbar = ({ handleSearch }) => {
 
     if (input.trim()) {
       handleSearch(input.trim());
-      navigate(`search/${input}`);
+      navigate(`/search/${input}`);
       setInput("");
     }
   };
